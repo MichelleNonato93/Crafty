@@ -1,0 +1,84 @@
+body{
+background-color:#484848;
+background-image: -webkit-repeating-linear-gradient(-135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+background-image: -moz-repeating-linear-gradient(-135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+background-image: -o-repeating-linear-gradient(-135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+background-image: repeating-linear-gradient(-135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+-webkit-background-size: 4px 4px;
+-moz-background-size: 4px 4px;
+background-size: 4px 4px;
+overflow: hidden;
+}
+@font-face
+{
+font-family: Font;
+src: url('../fonts/CFCrayons-Regular.ttf');
+}
+/** start for admin page **/
+.panel{
+margin: 10%;
+border-radius: 10px;
+height: 350px;
+}
+.panel img{
+margin: 0 32% 0 32%;
+}
+.panel label{
+font-family: Font;
+font-size: 18px;
+}
+.panel button{
+border-radius: 5px;
+font-family: Font;
+background-color: #33c522;
+height: 45px;
+}
+.panel button:hover{
+background-color: #484848;
+}
+.bottom .right{
+margin-top:3%;
+}
+/** end for admin page **/
+
+/** start for content page **/
+.content-head{
+background-color: #fff;
+border-radius: 10px;
+margin-top:5%;
+}
+.content-head .logo{
+margin: 5% 0 0 20%;
+}
+.content-head .logo-title{
+margin:5%;
+font-family: Font;
+font-size: 25px;
+}
+.content-head .title{
+font-family: Font;
+font-size: 18px;
+margin-bottom: 3%;
+}
+.content-head .title a{
+color:#000;
+}
+.tab-nav{
+margin-top: 2%;
+}
+.content-title{
+font-family: Font;
+text-align: center;
+}
+.content-msg{
+font-family: Font;
+font-size: 18px;
+margin-bottom: 3%;
+}
+.add{
+float: left;
+text-decoration: underline;
+}
+table a{
+text-decoration: underline;
+}
